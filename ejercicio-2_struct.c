@@ -14,7 +14,7 @@ int main() {
     };
     int i;
 
-    printf("=== Datos originales ===\n");
+    printf(" Datos originales \n");
     for (i = 0; i < 3; i++) {
         printf("Alumno %d -> Nombre: %s | Edad: %d | Año: %d\n",
                i + 1, alumnos[i].nombre, alumnos[i].edad, alumnos[i].año);
@@ -22,7 +22,7 @@ int main() {
 
     
     for (i = 0; i < 3; i++) {
-        printf("\n--- Modificar alumno %d ---\n", i + 1);
+        printf("\n Modificar alumno %d\n", i + 1);
         printf("Nuevo nombre: ");
         scanf(" %s", alumnos[i].nombre);
         printf("Nueva edad: ");
@@ -31,7 +31,7 @@ int main() {
         scanf("%d", &alumnos[i].año);
     }
 
-    printf("\n=== Datos modificados ===\n");
+    printf("\n Datos modificados \n");
     for (i = 0; i < 3; i++) {
         printf("Alumno %d -> Nombre: %s | Edad: %d | Año: %d\n",
                i + 1, alumnos[i].nombre, alumnos[i].edad, alumnos[i].año);
